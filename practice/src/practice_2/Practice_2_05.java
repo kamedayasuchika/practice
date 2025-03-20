@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Practice_2_04{
+public class Practice_2_05{
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = 
@@ -12,11 +12,7 @@ public class Practice_2_04{
 
 		int x = Integer.parseInt( br.readLine() );
 		int y = Integer.parseInt( br.readLine() );
-		System.out.println(x + y);
-		System.out.println(x - y);
-		System.out.println(x * y);
-		System.out.println(x / y);
-		System.out.println(x % y);
+		System.out.println((x + y)/2);
 	}
 
 }
