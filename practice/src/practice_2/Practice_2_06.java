@@ -12,7 +12,7 @@ public class Practice_2_06{
 
 		System.out.println("あなたの年齢を教えてください");
 		int x = Integer.parseInt( br.readLine() );
-		System.out.println("生まれて現在まで" + x * 365 + "日です");
+		System.out.println("あなたが生まれておよそ" + x * 365 + "日経っています");
 	}
 
 }
