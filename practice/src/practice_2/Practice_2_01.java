@@ -2,7 +2,7 @@ package practice_2;
 
 import java.io.*;
 
-public class practice_2_1{
+public class Practice_2_01{
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = 

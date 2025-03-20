@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class practice_2_2{
+public class Practice_2_02{
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = 
