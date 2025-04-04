@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Practice_3_02 {
+public class Practice_3_04 {
 
 	public static void main(String[] args)throws IOException {
 		BufferedReader br = 
@@ -15,9 +15,10 @@ public class Practice_3_02 {
 		 
 		if(x > y){
 		    System.out.println("xはyより大きい。");
-			}else if(x < y){
+		}else if(x < y){
 		    System.out.println("xはyより小さい。");
-			}
-	
-	}
+		}else if(x == y){
+		    System.out.println("xとyは等しい。");
+		}
+	}	
 }
