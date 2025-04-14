@@ -9,5 +9,4 @@ public class Practice_4_03 {
 			System.out.println(x);
 		}
 	}
-
 }

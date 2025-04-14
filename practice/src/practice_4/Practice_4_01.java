@@ -6,6 +6,7 @@ public class Practice_4_01 {
 		// TODO 自動生成されたメソッド・スタブ
 		for(int i = 0; i < 10; i++) {
 			System.out.println("SPAM");
+			
 		}
 	}
 

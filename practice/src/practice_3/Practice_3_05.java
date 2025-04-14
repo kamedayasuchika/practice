@@ -17,5 +17,6 @@ public class Practice_3_05 {
 		}else{
 		    System.out.println("奇数");
 		}
+		
 	}	
 }

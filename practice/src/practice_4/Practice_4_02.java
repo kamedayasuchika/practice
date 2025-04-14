@@ -6,7 +6,6 @@ public class Practice_4_02 {
 		for(int i = 1; i < 10; i++) {
 			System.out.println(3 * i);
 		}
-
 	}
 
 }
