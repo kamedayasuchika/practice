@@ -10,8 +10,14 @@ public class Practice_4_08 {
 		BufferedReader br = 
 			new BufferedReader(new InputStreamReader( System.in ) );
 		
+		int value = 0;
+		
 		for(int i = 0; i < 10; i++) {
-			
+			int x = Integer.parseInt( br.readLine() );
+			if(value < x) {
+				value = x;
+			}
+			System.out.println(value);
 		}
 	}
 }
