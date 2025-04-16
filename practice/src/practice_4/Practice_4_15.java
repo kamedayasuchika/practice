@@ -13,7 +13,7 @@ public class Practice_4_15 {
 		int x = Integer.parseInt( br.readLine() );
 		int sosucount = 0;
 		
-		
+		//素数は1と対象の数字でしか割れないため、countが２以上の場合は素数ではない。
 		for(int i = 2; i <= x ; i++) {
 			if(x % i == 0) {
 				sosucount++;
