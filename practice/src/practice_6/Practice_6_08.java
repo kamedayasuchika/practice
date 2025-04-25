@@ -5,19 +5,18 @@ public class Practice_6_08 {
 	public static void main( String[] args )
 	{
 	    for( int n = 11 ; n <= 20 ; n++ )
-	        System.out.print( Fibonacci( n ) + " " );
+	        System.out.print( fibo( n ) + " " );
 	}
 
-	public static int Fibonacci( int n )
-	{
-	    if( n == 0 )
-	        return 0;
-	    else if( n == 1 )
-	        return 1;
-	    else
-	        return  + Fibonacci( n - 2 ) + Fibonacci( n - 1 );
-	}
+	public static int fibo( int n ){
+		if(n < 2) {
+			return n;
+		} else {
+			return fibo(n - 1) + fibo(n - 2);
+		}
 
+	}
 }
+
 
 
