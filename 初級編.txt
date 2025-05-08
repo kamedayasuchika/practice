@@ -1,0 +1,78 @@
+初級編
+
+1-1
+select *
+from books
+
+1-2
+select name
+from books
+
+1-3
+select name,release_year
+from books
+
+1-4
+select distinct release_year
+from books
+
+1-5
+select name as "書籍名",total_page as "総ページ数"
+from books
+
+
+1-6
+select *
+from books
+where release_year = 2020;
+
+1-7
+select *
+from books
+where name = '宇宙の歴史';
+
+1-8
+select *
+from books
+where name like '%マンガ%';
+
+1-9
+select *
+from authors
+where gender = '男性'
+limit 3;
+
+1-10
+select *
+from books
+where release_year is not null;
+
+1-11
+select *
+from books
+where total_page between 300 and 400;
+
+1-12
+select *
+from books
+where release_year in(2004,2008,2018);
+
+1-13
+select book_id, price * 1.1  as tax_included_price
+from book_sales;
+
+1-14
+select *
+from books
+where total_page < 100;
+
+1-15
+select *
+from stores
+where holiday <> '月曜日';
+
+1-16
+select *
+from books
+where release_year >= 2000
+and total_page <= 200;

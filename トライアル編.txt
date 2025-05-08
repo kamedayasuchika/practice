@@ -1,0 +1,28 @@
+トライアル編
+
+1-1
+select *
+from books
+where release_year is null;
+
+1-2
+select name,total_page
+from books
+order by total_page desc;
+
+1-3
+SELECT categories.name ,  count(books.name) as num
+from categories
+inner join book_categories
+on categories.id = book_categories.category_id
+inner join books
+on book_categories.book_id = books.id
+group by  categories.name
+ORDER BY num DESC, categories.name ASC
+LIMIT 3;
+
+1-4
+DELETE FROM events
+WHERE id = 1;
+SELECT *
+FROM events;
